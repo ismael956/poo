@@ -1,6 +1,8 @@
 fun main(args: Array<String>) {
     val miBaraja=Baraja()
     miBaraja.mostrar()
+    println("aleatoria ")
+    miBaraja.verCartaAleatoria()
 
     /*
     var listaCartas= mutableListOf<Carta>()

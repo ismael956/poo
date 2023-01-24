@@ -19,4 +19,8 @@ class Baraja {
         }
 
     }
+    fun verCartaAleatoria(){
+        var indiceAleatorio=(0..listaCartas.size-1).random()
+        listaCartas[indiceAleatorio].mostrarCarta()
+    }
 }

@@ -50,8 +50,8 @@ class Alumno (dni:String,edad:Int){
     override fun toString(): String {
         return "Alumno(dni='$dni', edad=$edad, notaTrimestre1=$notaTrimestre1, notaTrimestre2=$notaTrimestre2, notaTrimestre3=$notaTrimestre3)"
     }
-    fun informeAlumno(){
-        print ("${toString()} mediaFinal:${notaFinal()} " )
+    fun prueba(){
+        print(toString())
     }
 
 
